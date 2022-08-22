@@ -3,7 +3,7 @@ my dotfiles for my personal openbox setup
 
 Required programs:
 1. Openbox
-2. pijulius' picom - https://github.com/pijulius/picom | https://aur.archlinux.org/packages/picom-pijulius-git
+2. <a href=https://github.com/pijulius/picom> pijulius' picom github </a> | <a href=https://aur.archlinux.org/packages/picom-pijulius-git> AUR </a>
 3. Nitrogen
 4. Geany
 5. lxappearance
