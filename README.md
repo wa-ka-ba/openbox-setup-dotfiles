@@ -6,4 +6,5 @@ Required programs:
 2. pijulius' picom - https://github.com/pijulius/picom | https://aur.archlinux.org/packages/picom-pijulius-git
 3. Nitrogen
 4. Geany
-
+5. lxappearance
+6. obmenu-generator
