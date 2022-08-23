@@ -40,7 +40,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Bonzo</name>
+    <name>Fleon</name>
     <titleLayout>IMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -370,6 +370,12 @@
     <!-- Minimize window by pressing super+shift+down -->
     <keybind key="W-S-Down">
       <action name="Iconify"/>
+    </keybind>
+    <!-- Betterlockscreen -->
+    <keybind key="W-l">
+		<action name="Execute">
+			<command>betterlockscreen -l</command>
+		</action>
     </keybind>
   </keyboard>
   <mouse>
