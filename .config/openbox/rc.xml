@@ -321,9 +321,9 @@
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>Thunar</name>
+          <name>pcmanfm</name>
         </startupnotify>
-        <command>thunar</command>
+        <command>pcmanfm</command>
       </action>
     </keybind>
     <!-- Terminal -->
