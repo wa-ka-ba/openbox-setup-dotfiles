@@ -374,7 +374,7 @@
     <!-- Betterlockscreen -->
     <keybind key="W-l">
 		<action name="Execute">
-			<command>betterlockscreen -l</command>
+			<command>betterlockscreen -l blur 1</command>
 		</action>
     </keybind>
   </keyboard>
