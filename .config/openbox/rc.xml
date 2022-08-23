@@ -151,10 +151,10 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>0</top>
-    <bottom>0</bottom>
-    <left>0</left>
-    <right>0</right>
+    <top>10</top>
+    <bottom>10</bottom>
+    <left>10</left>
+    <right>10</right>
   </margins>
   <dock>
     <position>TopLeft</position>
@@ -343,7 +343,7 @@
       <action name="UnmaximizeFull"/>
       <action name="MaximizeVert"/>
       <action name="MoveResizeTo">
-        <width>50%</width>
+        <width>945px</width>
       </action>
       <action name="MoveToEdgeWest"/>
     </keybind>
@@ -351,7 +351,7 @@
       <action name="UnmaximizeFull"/>
       <action name="MaximizeVert"/>
       <action name="MoveResizeTo">
-        <width>50%</width>
+        <width>945px</width>
       </action>
       <action name="MoveToEdgeEast"/>
     </keybind>
@@ -372,10 +372,10 @@
       <action name="Iconify"/>
     </keybind>
     <!-- Betterlockscreen -->
-    <keybind key="W-l">
-		<action name="Execute">
-			<command>betterlockscreen -l blur 1</command>
-		</action>
+    <keybind key="W-b">
+      <action name="Execute">
+        <command>betterlockscreen -l blur 1</command>
+      </action>
     </keybind>
   </keyboard>
   <mouse>
