@@ -13,5 +13,5 @@ Programs/Requirements:
   <li>obmenu-generator</li>
   <li>gvfs (for trash)</li>
   <li>Polybar</li>
-  <li>Japanese Fonts: <a href=https://archlinux.org/packages/?name=adobe-source-han-sans-jp-fonts>adobe-source-han-sans-jp-fonts </a>, <a href=https://archlinux.org/packages/?name=adobe-source-han-serif-jp-fonts>adobe-source-han-serif-jp-fonts</a>, <a href=https://aur.archlinux.org/packages/ttf-vlgothic/>ttf-vlgothic</a> </li>
+  <li>Japanese Fonts: <a href=https://archlinux.org/packages/?name=adobe-source-han-sans-jp-fonts>adobe-source-han-sans-jp-fonts</a>, <a href=https://archlinux.org/packages/?name=adobe-source-han-serif-jp-fonts>adobe-source-han-serif-jp-fonts</a>, <a href=https://aur.archlinux.org/packages/ttf-vlgothic/>ttf-vlgothic</a> </li>
 </ul>
