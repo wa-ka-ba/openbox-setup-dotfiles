@@ -328,32 +328,39 @@
   </keybind>
   -->
     <!-- Window Tiling: Emulates Windows 7 Snap feature JASON CAVETT -->
+   
+    <!-- Tile window to left -->
     <keybind key="W-Left">
       <action name="UnmaximizeFull"/>
-      <action name="MaximizeVert"/>
+      <!--<action name="MaximizeVert"/>-->
       <action name="MoveResizeTo">
         <width>930px</width>
+        <height>1000px</height>
         <x>0</x>
+        <y>-5</y>
       </action>
-      <action name="MoveToEdgeWest"/>
+      <!--<action name="MoveToEdgeWest"/> -->
     </keybind>
+    <!-- Tile window to right -->
     <keybind key="W-Right">
       <action name="UnmaximizeFull"/>
-      <action name="MaximizeVert"/>
+      <!--<action name="MaximizeVert"/>-->
       <action name="MoveResizeTo">
         <width>930px</width>
+        <height>1000px</height>
         <x>-0</x>
+        <y>-5</y>
       </action>
-      <action name="MoveToEdgeEast"/>
+	  <!--<action name="MoveToEdgeEast"/> -->
     </keybind>
     <!-- Tile window to upper left -->
     <keybind key="W-S-Left">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <width>930px</width>
-        <height>525px</height>
+        <height>495px</height>
         <x>0</x>
-        <y>0</y>
+        <y>7</y>
       </action>
     </keybind>
     <!-- Tile window to upper right -->
@@ -361,29 +368,29 @@
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <width>930px</width>
-        <height>525px</height>
+        <height>495px</height>
         <x>-0</x>
-        <y>0</y>
+        <y>7</y>
       </action>
     </keybind>
     <!-- Tile window to lower left -->
     <keybind key="W-C-Left">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-        <width>945px</width>
-        <height>525px</height>
+        <width>930px</width>
+        <height>495px</height>
         <x>0</x>
-        <y>-0</y>
+        <y>-7</y>
       </action>
     </keybind>
     <!-- Tile window to lower right -->
     <keybind key="W-C-Right">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-        <width>945px</width>
-        <height>525px</height>
+        <width>930px</width>
+        <height>495px</height>
         <x>-0</x>
-        <y>-0</y>
+        <y>-7</y>
       </action>
     </keybind>
     <!-- Maximize window by pressing super+up -->
