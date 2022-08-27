@@ -293,6 +293,7 @@
       </action>
     </keybind>
     <!-- Keybindings for window switching with the arrow keys -->
+    <!--
     <keybind key="W-S-Right">
       <action name="DirectionalCycleWindows">
         <direction>right</direction>
@@ -303,6 +304,7 @@
         <direction>left</direction>
       </action>
     </keybind>
+    -->
     <keybind key="W-S-Up">
       <action name="DirectionalCycleWindows">
         <direction>up</direction>
@@ -315,30 +317,7 @@
     </action>
   </keybind>
   -->
-    <!-- Keybindings for running applications -->
-    <!-- File Explorer -->
-    <keybind key="W-e">
-      <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>pcmanfm</name>
-        </startupnotify>
-        <command>pcmanfm</command>
-      </action>
-    </keybind>
-    <!-- Terminal -->
-    <keybind key="W-Return">
-      <action name="Execute">
-        <command>xterm</command>
-      </action>
-    </keybind>
-    <!-- Screenshot -->
-    <keybind key="W-S-s">
-      <action name="Execute">
-        <command>gnome-screenshot -a -c</command>
-      </action>
-    </keybind>
-    <!-- Window Tiling: Emulates Windows 7 Snap feature JASON CAVETT -->
+  <!-- Window Tiling: Emulates Windows 7 Snap feature JASON CAVETT -->
     <keybind key="W-Left">
       <action name="UnmaximizeFull"/>
       <action name="MaximizeVert"/>
@@ -355,6 +334,46 @@
       </action>
       <action name="MoveToEdgeEast"/>
     </keybind>
+    <!-- Tile window to upper left -->
+    <keybind key ="W-S-Left">
+	  <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>945px</width>
+        <height>525px</height>
+        <x>0</x>
+        <y>0</y>
+      </action>
+    </keybind>
+    <!-- Tile window to upper right -->
+    <keybind key ="W-S-Right">
+	  <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>945px</width>
+        <height>525px</height>
+        <x>-0</x>
+        <y>0</y>
+      </action>
+    </keybind>
+    <!-- Tile window to lower left -->
+    <keybind key ="W-C-Left">
+	  <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>945px</width>
+        <height>525px</height>
+        <x>0</x>
+        <y>-0</y>
+      </action>
+     </keybind>
+     <!-- Tile window to lower right -->
+    <keybind key ="W-C-Right">
+	  <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <width>945px</width>
+        <height>525px</height>
+        <x>-0</x>
+        <y>-0</y>
+      </action>
+    </keybind>
     <!-- Maximize window by pressing super+up -->
     <keybind key="W-Up">
       <action name="Maximize"/>
@@ -370,6 +389,29 @@
     <!-- Minimize window by pressing super+shift+down -->
     <keybind key="W-S-Down">
       <action name="Iconify"/>
+    </keybind>
+    <!-- Keybindings for running applications -->
+    <!-- File Explorer -->
+    <keybind key="W-e">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>pcmanfm</name>
+        </startupnotify>
+        <command>pcmanfm</command>
+      </action>
+    </keybind>
+    <!-- Terminal -->
+    <keybind key="W-Return">
+      <action name="Execute">
+        <command>lxterminal</command>
+      </action>
+    </keybind>
+    <!-- Screenshot -->
+    <keybind key="W-S-s">
+      <action name="Execute">
+        <command>gnome-screenshot -a -c</command>
+      </action>
     </keybind>
     <!-- Betterlockscreen -->
     <keybind key="W-b">
