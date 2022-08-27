@@ -12,4 +12,5 @@ Programs/Requirements:
   <li>lxappearance</li>
   <li>obmenu-generator</li>
   <li>gvfs (for trash)</li>
+  <li>Polybar</li>
 </ul>
