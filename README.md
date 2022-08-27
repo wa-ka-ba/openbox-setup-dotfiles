@@ -13,4 +13,5 @@ Programs/Requirements:
   <li>obmenu-generator</li>
   <li>gvfs (for trash)</li>
   <li>Polybar</li>
+  <li>Japanese Fonts</li>
 </ul>
