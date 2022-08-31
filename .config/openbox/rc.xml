@@ -156,7 +156,7 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>10</top>
+    <top>65</top>
     <bottom>10</bottom>
     <left>25</left>
     <right>25</right>
@@ -328,16 +328,15 @@
   </keybind>
   -->
     <!-- Window Tiling: Emulates Windows 7 Snap feature JASON CAVETT -->
-   
     <!-- Tile window to left -->
     <keybind key="W-Left">
       <action name="UnmaximizeFull"/>
       <!--<action name="MaximizeVert"/>-->
       <action name="MoveResizeTo">
         <width>930px</width>
-        <height>1000px</height>
+        <height>999px</height>
         <x>0</x>
-        <y>-5</y>
+        <y>-3</y>
       </action>
       <!--<action name="MoveToEdgeWest"/> -->
     </keybind>
@@ -347,11 +346,11 @@
       <!--<action name="MaximizeVert"/>-->
       <action name="MoveResizeTo">
         <width>930px</width>
-        <height>1000px</height>
+        <height>999px</height>
         <x>-0</x>
-        <y>-5</y>
+        <y>-3</y>
       </action>
-	  <!--<action name="MoveToEdgeEast"/> -->
+      <!--<action name="MoveToEdgeEast"/> -->
     </keybind>
     <!-- Tile window to upper left -->
     <keybind key="W-S-Left">
@@ -360,7 +359,7 @@
         <width>930px</width>
         <height>495px</height>
         <x>0</x>
-        <y>7</y>
+        <y>3</y>
       </action>
     </keybind>
     <!-- Tile window to upper right -->
@@ -370,7 +369,7 @@
         <width>930px</width>
         <height>495px</height>
         <x>-0</x>
-        <y>7</y>
+        <y>3</y>
       </action>
     </keybind>
     <!-- Tile window to lower left -->
@@ -380,7 +379,7 @@
         <width>930px</width>
         <height>495px</height>
         <x>0</x>
-        <y>-7</y>
+        <y>-3</y>
       </action>
     </keybind>
     <!-- Tile window to lower right -->
@@ -390,7 +389,7 @@
         <width>930px</width>
         <height>495px</height>
         <x>-0</x>
-        <y>-7</y>
+        <y>-3</y>
       </action>
     </keybind>
     <!-- Maximize window by pressing super+up -->
