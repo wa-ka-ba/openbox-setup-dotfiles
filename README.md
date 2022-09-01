@@ -13,6 +13,7 @@ Programs/Requirements:
   <li>obmenu-generator</li>
   <li>gvfs (for trash)</li>
   <li>Polybar</li>
+  <li>Rofi</li>
 </ul>
 Fonts:
 <ul>
