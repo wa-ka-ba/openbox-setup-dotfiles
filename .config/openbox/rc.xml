@@ -437,6 +437,12 @@
         <command>betterlockscreen -l blur 1</command>
       </action>
     </keybind>
+    <!-- Rofi Launcher -->
+    <keybind key="W-r">
+      <action name="Execute">
+        <command>rofi -show drun</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
