@@ -17,12 +17,12 @@ configuration {
 /*****----- Global Properties -----*****/
 * {
     font:                        "Sofia Pro Light 13";
-    background:                  #24283b;
+    background:                  #1F1F28;
     background-alt:              #152333;
-    foreground:                  #FFFFFF;
-    selected:                    #70a3e0;
-    active:                      #6E77FF;
-    urgent:                      #ff1a71;
+    foreground:                  #DCD7BA;
+    selected:                    #7fb4ca;
+    active:                      #938aa9;
+    urgent:                      #c34043;
 }
 /*
 USE_BUTTONS=YES
@@ -71,7 +71,7 @@ userimage {
     border-radius:               0px;
     border-color:                @background-alt;
     background-color:            transparent;
-    background-image:            url("~/.config/rofi/images/i.jpg", height);
+    background-image:            url("~/.config/rofi/images/avatar.jpg", height);
 }
 
 /*****----- Inputbar -----*****/
@@ -99,7 +99,7 @@ message {
     padding:                     20px;
     border-radius:               15px;
     background-color:            @background-alt;
-    text-color:                  @selected;
+    text-color:                  @foreground;
 }
 textbox {
     background-color:            inherit;
