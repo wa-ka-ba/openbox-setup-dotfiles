@@ -14,6 +14,7 @@ Programs/Requirements:
   <li>Polybar</li>
   <li>Rofi</li>
   <li><a href=https://github.com/pijulius/picom> pijulius' picom github </a> | <a href=https://aur.archlinux.org/packages/picom-pijulius-git> AUR </a></li>
+  <li>Betterlockscreen</li>
 </ul>
 Fonts:
 <ul>
