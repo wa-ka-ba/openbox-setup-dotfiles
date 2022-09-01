@@ -24,12 +24,12 @@ configuration {
 /*****----- Global Properties -----*****/
 * {
     font:                        "Sofia Pro Light 13";
-    background:                  #24283b;
+    background:                  #1F1F28;
     background-alt:              #152333;
-    foreground:                  #FFFFFF;
-    selected:                    #70a3e0;
-    active:                      #6E77FF;
-    urgent:                      #ff1a71;
+    foreground:                  #DCD7BA;
+    selected:                    #7fb4ca;
+    active:                      #938aa9;
+    urgent:                      #c34043;
 }
 
 /*****----- Main Window -----*****/
@@ -46,6 +46,7 @@ window {
     /* properties for all widgets */
     enabled:                     true;
     border-radius:               15px;
+    border-color:				 @selected;
     cursor:                      "default";
     background-color:            @background;
 }
@@ -92,7 +93,7 @@ inputbar {
 textbox-prompt-colon {
     enabled:                     true;
     expand:                      false;
-    str:                         "";
+    str:                         "";
     background-color:            inherit;
     text-color:                  inherit;
 }
