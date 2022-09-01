@@ -1,4 +1,4 @@
 nitrogen --restore &
-# picom &
+#picom &
 ~/.config/polybar/launch.sh &
 fcitx -d &

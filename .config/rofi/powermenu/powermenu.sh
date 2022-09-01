@@ -25,8 +25,8 @@ reboot='ﰇ'
 lock=''
 suspend=''
 logout=''
-yes=''
-no=''
+yes=''
+no=''
 
 # Rofi CMD
 rofi_cmd() {
@@ -44,8 +44,8 @@ confirm_cmd() {
 		-theme-str 'element-text {horizontal-align: 0.5;}' \
 		-theme-str 'textbox {horizontal-align: 0.5;}' \
 		-dmenu \
-		-p 'Confirmation' \
-		-mesg 'Are you Sure?' \
+		-p 'confirmation' \
+		-mesg 'are you sure?' \
 		-theme ${dir}/${theme}.rasi
 }
 
