@@ -11,25 +11,23 @@
 configuration {
 	modi:                       "drun,run,filebrowser,window";
     show-icons:                 true;
-    display-drun:               "apps";
-    display-run:                "run";
-    display-filebrowser:        "files";
-    display-window:             "window";
+    display-drun:               "APPS";
+    display-run:                "RUN";
+    display-filebrowser:        "FILES";
+    display-window:             "WINDOW";
 	drun-display-format:        "{name}";
 	window-format:              "{w} · {c} · {t}";
 }
 
-@theme "/dev/null/"
-
 /*****----- Global Properties -----*****/
 * {
-    font:                        "Sofia Pro Light 13";
-    background:                  #24283b;
-    background-alt:              #152333;
+    font:                        "JetBrains Mono Nerd Font 10";
+    background:                  #11092D;
+    background-alt:              #281657;
     foreground:                  #FFFFFF;
-    selected:                    #70a3e0;
+    selected:                    #DF5296;
     active:                      #6E77FF;
-    urgent:                      #ff1a71;
+    urgent:                      #8E3596;
 }
 
 /*****----- Main Window -----*****/
@@ -62,7 +60,7 @@ mainbox {
 imagebox {
     padding:                     20px;
     background-color:            transparent;
-    background-image:            url("~/.config/rofi/images/rofibg.png", height);
+    background-image:            url("~/.config/rofi/images/j.jpg", height);
     orientation:                 vertical;
     children:                    [ "inputbar", "dummy", "mode-switcher" ];
 }
@@ -101,7 +99,7 @@ entry {
     background-color:            inherit;
     text-color:                  inherit;
     cursor:                      text;
-    placeholder:                 "search";
+    placeholder:                 "Search";
     placeholder-color:           inherit;
 }
 
@@ -138,7 +136,7 @@ listview {
     fixed-columns:               true;
     
     spacing:                     10px;
-    background-color:            @background;
+    background-color:            transparent;
     text-color:                  @foreground;
     cursor:                      "default";
 }

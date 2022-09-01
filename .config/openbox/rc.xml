@@ -156,8 +156,8 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>68</top>
-    <bottom>10</bottom>
+    <top>70</top>
+    <bottom>15</bottom>
     <left>25</left>
     <right>25</right>
   </margins>
@@ -334,9 +334,9 @@
       <!--<action name="MaximizeVert"/>-->
       <action name="MoveResizeTo">
         <width>930px</width>
-        <height>999px</height>
+        <height>995px</height>
         <x>0</x>
-        <y>-3</y>
+        <y>-0</y>
       </action>
       <!--<action name="MoveToEdgeWest"/> -->
     </keybind>
@@ -346,9 +346,9 @@
       <!--<action name="MaximizeVert"/>-->
       <action name="MoveResizeTo">
         <width>930px</width>
-        <height>999px</height>
+        <height>995px</height>
         <x>-0</x>
-        <y>-3</y>
+        <y>-0</y>
       </action>
       <!--<action name="MoveToEdgeEast"/> -->
     </keybind>
@@ -357,9 +357,9 @@
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <width>930px</width>
-        <height>495px</height>
+        <height>493px</height>
         <x>0</x>
-        <y>3</y>
+        <y>0</y>
       </action>
     </keybind>
     <!-- Tile window to upper right -->
@@ -367,9 +367,9 @@
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <width>930px</width>
-        <height>495px</height>
+        <height>493px</height>
         <x>-0</x>
-        <y>3</y>
+        <y>0</y>
       </action>
     </keybind>
     <!-- Tile window to lower left -->
@@ -377,9 +377,9 @@
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <width>930px</width>
-        <height>495px</height>
+        <height>493px</height>
         <x>0</x>
-        <y>-3</y>
+        <y>-0</y>
       </action>
     </keybind>
     <!-- Tile window to lower right -->
@@ -387,9 +387,9 @@
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <width>930px</width>
-        <height>495px</height>
+        <height>493px</height>
         <x>-0</x>
-        <y>-3</y>
+        <y>-0</y>
       </action>
     </keybind>
     <!-- Maximize window by pressing super+up -->
