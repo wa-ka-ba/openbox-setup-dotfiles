@@ -26,8 +26,6 @@ Fonts:
 
 To add:
 <ul>
-	<li>GTK Theme based on Kanagawa</li>
-	<li>Icons</li>
 	<li>Kitty Theme (Kanagawa)</li>
 	<li>libnotify, Dunst (with history)</li>
 	<li>Dock?</li>

@@ -40,7 +40,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Arc-Clone</name>
+    <name>Kanagawa-Openbox</name>
     <titleLayout>IMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -158,8 +158,8 @@
   <margins>
     <top>70</top>
     <bottom>15</bottom>
-    <left>25</left>
-    <right>25</right>
+    <left>20</left>
+    <right>20</right>
   </margins>
   <dock>
     <position>TopLeft</position>

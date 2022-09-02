@@ -26,14 +26,14 @@ menu.separator.padding.width: 10
 menu.separator.padding.height: 2
 menu.overlap.x: -8
 menu.*.bg: flat solid
-menu.*.bg.color: #2f343f
-menu.*.color: #2f343f
-menu.title.text.color: #ffffff
-menu.items.text.color: #d8dee8
+menu.*.bg.color: #1F1F28
+menu.*.color: #1F1F28
+menu.title.text.color: #DCD7BA
+menu.items.text.color: #DCD7BA
 menu.items.active.disabled.text.color: #707070
 menu.items.active.text.color: #d8dee8
 menu.title.text.justify: center
-menu.items.active.bg.color: #5294e2
+menu.items.active.bg.color: #7fb4ca
 
 # OSD
 osd.border.width: 1
