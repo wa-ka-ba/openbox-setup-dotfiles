@@ -9,7 +9,8 @@ my dotfiles for my personal openbox setup
 	<li>Terminal - Kitty</li>
 	<li>Nitrogen</li>
 	<li>Geany</li>
-	<li>lxappearance</li>
+	<li>lxappearance-gtk3</li>
+	<li>pcmanfm-gtk3</li>
 	<li>obmenu-generator</li>
 	<li>gvfs (for trash)</li>
 	<li>Polybar</li>
