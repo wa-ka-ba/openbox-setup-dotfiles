@@ -3,6 +3,7 @@ my dotfiles for my personal openbox setup
 
 Programs/Requirements:
 <ul>
+  <li>Stow</li>
   <li>Openbox, obconf </li>
   <li>LightDM (install greeter and enable with: "systemctl enable lightdm.service")</li>
   <li>Terminal - Kitty</li>
