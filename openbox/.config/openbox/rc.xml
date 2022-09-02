@@ -333,7 +333,7 @@
       <action name="UnmaximizeFull"/>
       <!--<action name="MaximizeVert"/>-->
       <action name="MoveResizeTo">
-        <width>930px</width>
+        <width>936px</width>
         <height>995px</height>
         <x>0</x>
         <y>-0</y>
@@ -345,7 +345,7 @@
       <action name="UnmaximizeFull"/>
       <!--<action name="MaximizeVert"/>-->
       <action name="MoveResizeTo">
-        <width>930px</width>
+        <width>936px</width>
         <height>995px</height>
         <x>-0</x>
         <y>-0</y>
@@ -356,7 +356,7 @@
     <keybind key="W-S-Left">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-        <width>930px</width>
+        <width>936px</width>
         <height>493px</height>
         <x>0</x>
         <y>0</y>
@@ -366,7 +366,7 @@
     <keybind key="W-S-Right">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-        <width>930px</width>
+        <width>936px</width>
         <height>493px</height>
         <x>-0</x>
         <y>0</y>
@@ -376,7 +376,7 @@
     <keybind key="W-C-Left">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-        <width>930px</width>
+        <width>936px</width>
         <height>493px</height>
         <x>0</x>
         <y>-0</y>
@@ -386,7 +386,7 @@
     <keybind key="W-C-Right">
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
-        <width>930px</width>
+        <width>936px</width>
         <height>493px</height>
         <x>-0</x>
         <y>-0</y>
