@@ -5,6 +5,7 @@ my dotfiles for my personal openbox setup
 <ul>
 	<li>Stow</li> 
 	<li>Openbox, obconf </li>
+	<li>Polkit - lxsession</li>
 	<li>LightDM</li>
 	<li>Terminal - Kitty</li>
 	<li>Nitrogen</li>
@@ -57,4 +58,5 @@ my dotfiles for my personal openbox setup
 	<li>Dock?</li>
 	<li>Systray</li>
 	<li>Screenshot tool</li>
+	<li>Script to automate the process</li>
 </ul>
