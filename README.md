@@ -58,5 +58,8 @@ my dotfiles for my personal openbox setup
 	<li>Dock?</li>
 	<li>Systray</li>
 	<li>Screenshot tool</li>
+	<li>Color picker</li>
+	<li>Clipboard manager</>
+	<li>Systray toggle</li>
 	<li>Script to automate the process</li>
 </ul>
